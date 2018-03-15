@@ -1,6 +1,6 @@
 # Simple POST tracking application
 
-> Add to list with POST api call to <url>/postback
+> Add to list with POST api call to <url>/postback <br />
 > See last hours logs with <url>/logs
 
 ## Build Setup
