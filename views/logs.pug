@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h1 Logs
+  h2 Recent Postbacks:
+  ol
+    each doc, index in docs
+        li
+          <b>Time:</b> #{doc.createdAt}
+          <br>
+          <b>Action:</b> Postback
+          <br>
+          <b>Origin GMI:</b>
+          <br>
+          <b>Result:</b> !{JSON.stringify(doc.result)}
+        <p></p>
+        <p></p>
